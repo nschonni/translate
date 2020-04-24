@@ -37,3 +37,5 @@ jobs:
         run: pycodestyle
       - name: Run pydocstyle
         run: pydocstyle
+      - name: Run pylint
+        run: pylint translate
